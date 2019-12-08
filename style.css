@@ -1,0 +1,8 @@
+.correct, .incorrect {
+    display: none;
+}
+
+.correct.active, .incorrect.active {
+    display: block;
+}
+
