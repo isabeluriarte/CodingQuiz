@@ -67,7 +67,7 @@ function checkAnswer(event) {
 
   }
   setTimeout(function () {
-    var answer = document.querySelector(".answer")
+    var answer = document.querySelector(".active")
     answer.classList.remove("active")
   }, 1000);
 
